@@ -1,0 +1,150 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px; 
+    background: rgba(255, 255, 255, 0.8); 
+    backdrop-filter: blur(10px); 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 100px; 
+    height: auto;
+    margin-right: 15px;
+}
+
+.logo a {
+    font-size: 1.8em; 
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.logo a:hover {
+    color: #9b59b6; 
+}
+
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px; 
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    color: #9b59b6;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 12px 18px; 
+    border-radius: 8px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    background-color: #9b59b6; 
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(155, 89, 182, 0.5); 
+}
+
+
+.cart-icon a {
+    position: relative;
+    font-size: 1.5em; 
+    transition: color 0.3s ease;
+}
+
+.cart-icon a:hover {
+    color: #9b59b6; 
+}
+
+
+.navbar:hover {
+    background: linear-gradient(90deg, #2c2c2c, #3d3c3a); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.ticket-button-wrapper {
+    margin-left: 20px;
+}
+
+.ticket-button {
+    padding: 12px 25px; 
+    font-size: 1.2em; 
+    background: #9b59b6; 
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(155, 89, 182, 0.4); 
+}
+
+.ticket-button:hover {
+    background: #8e44ad;
+    transform: translateY(-3px); 
+    box-shadow: 0 8px 20px rgba(155, 89, 182, 0.5);
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    font-size: 1.8em; 
+    color: black;
+}
+
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links {
+        display: none; 
+        width: 100%;
+        flex-direction: column;
+        background: #2c2c2c;
+        position: absolute;
+        top: 80px; 
+        left: 0;
+        padding: 20px;
+    }
+
+    
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links a {
+        font-size: 1.5em; 
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .ticket-button {
+        font-size: 1em; 
+    }
+}

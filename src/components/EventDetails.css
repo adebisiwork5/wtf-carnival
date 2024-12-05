@@ -1,0 +1,48 @@
+
+.event-info,
+.event-sections {
+  background-color: #f8f6f2;
+  padding: 20px 30px;
+  border-radius: 10px;
+  color: #0EA2B1;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.8;
+  max-width: 700px;
+  margin: 20px auto; 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.event-sections{
+  padding-bottom: 150px !important;
+}
+
+
+.event-info p {
+  font-size: 16px;
+  margin: 8px 0;
+  text-align: center;
+}
+
+.event-info i {
+  color: #159FB3;
+  margin-right: 8px;
+}
+
+.event-sections section {
+  margin-bottom: 20px;
+}
+
+.event-sections h3 {
+  color: #159FB3;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.event-sections p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.event-sections p strong {
+  color: #F69F71;
+}

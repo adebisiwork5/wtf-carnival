@@ -1,0 +1,56 @@
+.tickets {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f6f2;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tickets h2 {
+    text-align: center;
+    color: #159FB3;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .ticket-summary {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .ticket-summary h3 {
+    color: #159FB3;
+  }
+  .buy-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #159FB3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .buy-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  

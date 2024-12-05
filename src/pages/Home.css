@@ -1,0 +1,358 @@
+.sponsors{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 150px !important;
+}
+
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch; 
+    height: 80vh;
+    padding:  5px; 
+    /* background-color: #f8f6f2; */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    gap: 20px;
+}
+
+
+.banner-text {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background: url('../images/WTF\ CARNIVAL.jpg') no-repeat center center; 
+    background-size: cover; 
+    position: relative; 
+}
+
+
+.banner-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: purple;
+}
+
+.banner-text p {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    color: #159fb3;
+}
+
+.banner-text .reservation-button {
+    margin-top: 470px;
+    align-self: center;
+}
+
+
+.banner-image {
+    flex: 1; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.banner-image img {
+    max-width: 100%;
+    max-height: 100%; 
+    border-radius: 10px;
+    object-fit: contain; 
+}
+
+
+.reservation-button {
+    background-color: #159FB3; 
+    color: white;
+    padding: 20px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.reservation-button:hover {
+    background-color: #0EA2B1;
+}
+
+.reservation-form-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #F8F6F2;
+    border: 1px solid #159FB3;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: block;
+    max-width: 500px; 
+    width: 100%; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+}
+
+.calendar-section {
+    width: 500px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  .react-calendar {
+    border: none !important;
+    box-shadow: none;
+    padding: 20px;
+  }
+
+  .react-calendar__tile {
+    border: none !important;
+    padding: 15px;
+    text-align: center; 
+    border-radius: 5px;
+    text-decoration: none !important;
+  }
+
+  /* Add spacing to the days of the week */
+.react-calendar__month-view__weekdays {
+  padding: 10px 0;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none !important;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+
+.react-calendar__tile {
+  padding: 15px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.countdown-timer{
+  margin-top: 30px !important;
+}
+
+.countdown-timer h3{
+  font-size: 25px;
+  color: #0EA2B1;
+}
+
+.colon{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.react-calendar__tile.remove-background {
+  background-color: transparent !important;
+}
+
+/* Replace numbers with custom content */
+.react-calendar__tile.replace-numbers {
+  color: transparent; /* Hide the default number */
+  position: relative;
+}
+
+.react-calendar__tile.replace-numbers span.custom-day {
+  color: black; /* Add your desired color for W, T, F */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.infoContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.infoContainer p{
+  max-width: 800px;
+  border: 1px solid #159FB3;
+  padding: 50px;
+  line-height: 30px;
+}
+
+.sponsorsImg{
+  width: 150px !important;
+  height: 150px !important;
+  border-radius: 50%;
+}
+
+form{
+  display: flex !important;
+  background: transparent !important;
+  flex-direction: column !important;
+  align-items: center;
+  box-shadow: none !important;
+}
+  
+form input {
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px;
+    background-color: #159FB3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #0EA2B1;
+}
+  
+
+  
+  .event-details {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+  }
+  
+  .event-box {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .event-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .ticket-button {
+    padding: 10px 20px;
+    background: #159fb3;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .press-release,
+  .sponsors,
+  .newsletter {
+    text-align: center;
+    padding: 30px 20px;
+    margin: 20px 0;
+  }
+
+  .press-release{
+    background: white;
+  }
+  
+  .sponsor-logos img {
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .sponsor-logos img:hover {
+    transform: scale(1.1);
+  }
+  
+    /* .newsletter form {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    } */
+  
+  .newsletter input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .newsletter button {
+    padding: 10px 20px;
+    background: #159fb3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+/* Mobile Screen Styling */
+@media (max-width: 768px) {
+  .banner-container {
+      flex-direction: column; /* Stack the text and image vertically */
+      height: 120vh; /* Allow height to adjust based on content */
+  }
+  .banner-text .reservation-button {
+      margin-top: 300px;
+      align-self: center;
+  }
+  
+
+  .banner-image {
+      display: block; /* Ensure the image is displayed */
+      margin-top: 0px; /* Add spacing if needed */
+      align-self: center; /* Center the image */
+      width: 100%; /* Adjust width for responsiveness */
+  }
+
+  .infoContainer{
+    flex-direction: column;
+  }
+  
+  .infoContainer p{
+    max-width: 400px !important;
+    border: 1px solid #159FB3;
+    padding: 20px;
+    line-height: 30px;
+  }
+  form input {
+    width: 350px !important;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+  .calendar-section {
+      padding: 10px;
+      width: 300px;
+      margin: 0 auto;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+   
+  
+    .weekdays span, .days span {
+      font-size: 12px;
+      padding: 8px;
+    }
+}
